@@ -7,7 +7,7 @@
 Dr. Himani Sikarwar\
 Shiv Nadar Institution of Eminence
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Prerequisites Checklist ✅
 
@@ -21,7 +21,7 @@ Before your lab session (22/09 or 24/09):
 
 **Important**: Incomplete setup = marks deduction!
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Installing NS-2 🛠️
 
@@ -42,7 +42,7 @@ cd ns-allinone-2.35
 ./install
 ```
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Verify Installation ✔️
 
@@ -70,7 +70,7 @@ nam
 
 Should open the NAM GUI window
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # File Setup 📂
 
@@ -90,7 +90,7 @@ cd ~/cn_lab_assignment2
 
 **Save all files in the working directory!**
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Running the Simulation 🚀
 
@@ -111,7 +111,7 @@ ns tcp_simulation.tcl
 awk -f calculate_metrics.awk tcp_simulation.tr
 ```
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Expected Output 📊
 
@@ -131,7 +131,7 @@ Packet Delivery Ratio: 89.74% of packets reached destination
 Packet Loss Ratio: 10.26% of packets were lost
 ```
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Parameter Study 🔬
 
@@ -153,7 +153,7 @@ ns parameter_study.tcl
 - `bw_0.5_results.txt`
 - etc.
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Troubleshooting 🔧
 
@@ -172,7 +172,7 @@ ns parameter_study.tcl
 - Check simulation runs without errors
 - Verify directory permissions
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Debugging Tips 🐛
 
@@ -194,7 +194,7 @@ ns tcp_simulation.tcl 2>&1 | tee simulation.log
 awk -f calculate_metrics.awk tcp_simulation.tr > results.txt
 ```
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Trace File Format 📝
 
@@ -214,7 +214,7 @@ s 1.234567 0 1 tcp 1000 ------- 0 0.0 1.0 0 0
 
 _time=1.234567, from node 0 to 1, TCP packet, 1000 bytes_
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Viva Preparation 🎓
 
@@ -232,7 +232,7 @@ _time=1.234567, from node 0 to 1, TCP packet, 1000 bytes_
 - Queue management impact
 - Bandwidth vs queue size effects
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Sample Viva Questions 💭
 
@@ -248,7 +248,7 @@ _time=1.234567, from node 0 to 1, TCP packet, 1000 bytes_
 4. **Why doesn't bandwidth always improve PDR?**
    - Queue size becomes the bottleneck
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Lab Day Checklist ✅
 
@@ -263,7 +263,7 @@ Before entering the lab:
 - [ ] Concepts understood
 - [ ] Files backed up
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Quick Commands Reference 🚀
 
@@ -285,7 +285,7 @@ ns parameter_study.tcl
 ls -la *.txt *.tr
 ```
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Success Tips 🌟
 
@@ -299,7 +299,7 @@ ls -la *.txt *.tr
 
 **Remember**: Understanding > Memorization
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Resources & Support 📚
 
@@ -318,7 +318,7 @@ ls -la *.txt *.tr
 
 Save all files to USB/cloud before lab!
 
-<!--end-of-slide-->
+<!--end_slide-->
 
 # Thank You! 🎉
 
@@ -332,5 +332,3 @@ Save all files to USB/cloud before lab!
 **Remember:** Preparation is key to success!
 
 Good luck with your TCP simulation analysis! 🚀
-
-<!--end-of-slide-->
